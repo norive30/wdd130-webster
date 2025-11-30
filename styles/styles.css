@@ -1,0 +1,107 @@
+/*import fonts here */
+
+/*Colors: 292929 black
+
+1F1C5E dark blue
+
+474747 dark gray
+
+F2AF29 orangish yellow
+
+E0E0CE light gray*/
+
+body {
+    background-color: #E0E0CE;
+    font-family: "Work Sans", Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    padding: 30px;
+}
+
+header {
+    background-color: #1F1C5E;
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
+    padding: 10px 0;
+}
+
+nav {
+    justify-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav a {
+    text-align: center;
+    color: white;
+    font-family: Castellar;
+    padding: 35px;
+}
+
+nav a:hover {
+    background-color: #F2AF29;
+    color: white;
+}
+
+.nav_links {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.home_link {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+footer {
+    background-color: #1F1C5E;
+    color: white;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 17px;
+    margin-top: 200px;
+    font-family: Castellar;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    font-family: Castellar;
+}
+
+footer a:hover {
+    color: #F2AF29;
+}
+
+footer p {
+    font-size: 1.2em;
+    padding: 12px;
+}
+
+footer p a:hover {
+    text-decoration: underline;
+}
+
+#welcome_message {
+    text-align: center;
+    font-family: "Times New Roman";
+}
+
+h1 {
+    text-decoration: underline;
+}
+
+#how_to_help_content {
+    font-family: "Times New Roman";
+}
