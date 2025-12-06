@@ -11,11 +11,12 @@ F2AF29 orangish yellow
 E0E0CE light gray*/
 
 body {
-    background-color: #E0E0CE;
+    background-color: #474747;
     font-family: "Work Sans", Helvetica, sans-serif;
     font-size: 22px;
     margin: 0;
     padding: 0;
+    color: #E0E0CE
 }
 
 main {
@@ -104,4 +105,9 @@ h1 {
 
 #how_to_help_content {
     font-family: "Times New Roman";
+}
+
+.logo {
+    height: 300px;
+    width: 300px;
 }
