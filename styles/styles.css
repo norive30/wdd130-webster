@@ -106,6 +106,18 @@ h1 {
     font-family: "Times New Roman";
 }
 
-.development_status_p {
+.content_ds {
+    display: grid;
+    grid-template-columns: 3;
+}
+#development_status_p {
     text-align: center;
+    grid-column: 1/ span 3;
+    grid-row: 2;
+}
+#forage_title {
+    grid-column: 1/2;
+}
+#portfolio_pic {
+    grid-column: 2/3;
 }
